@@ -71,7 +71,8 @@ const InternshipHomepage = () => {
           <div
             className={`w-[33%] 2xl:w-[35%] max-lg:${
               !showModal ? "hidden" : ""
-            }  shadow-xl rounded-md self-start`}
+            }  shadow-xl rounded-md self-start lg:sticky lg:top-20`}
+
           >
             <FilterSidebar
               setProfile={setProfile}
